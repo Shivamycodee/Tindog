@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+#title {
+  color: #fff;
+  background: lightcoral;
+}
+
+.row h1 {
+  font-weight: 550;
+  line-height: 1.3;
+  font-size: 3.8rem;
+}
+
+.container-fluid {
+  padding: 5% 7% 7% 7%;
+}
+
+.navbar-brand {
+  font-family: "Segoe UI", Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.row img {
+  transform: rotate(30deg);
+  width: 17%;
+  height: 70%;
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 751px) {
+  .row img {
+    position: static;
+    width: 280px;
+    margin: 8% 0 0 10%;
+    transform: rotate(0);
+  }
+}
+
+.download-button {
+  margin: 7% 3% 0 0;
+}
+
+h2 {
+  font-family: "montsarrat-black", sans-serif;
+  line-height: 1.5;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+#title .container-fluid {
+  padding-top: 60px;
+}
+/* features */
+#features {
+  position: relative;
+  background: #fff;
+  padding: 4rem 0 10rem 0;
+}
+
+#features .cols i {
+  padding-top: 2rem;
+  color: #ef8172;
+  font-size: 3.5rem;
+}
+
+#features .row {
+  text-align: center;
+}
+
+#features .cols h3 {
+  font-family: "montsarrat", sans-serif;
+  line-height: 2;
+  font-weight: 1.5rem;
+}
+
+#features .cols p {
+  color: #8f8f8f;
+  width: 60%;
+  margin: 0 0 0 20%;
+}
+
+#features .cols i:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials {
+  background: lightcoral;
+  color: #fff;
+}
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  padding: 9px 10px 0 0;
+}
+
+#press {
+  background: lightcoral;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 18%;
+  padding: 0 2rem 0;
+}
+
+.carousel-indicators {
+  margin-bottom: 40px;
+}
+
+/* pricing */
+
+#pricing .card {
+  margin-top: 100px;
+}
+
+/* call to action */
+
+#cta {
+  background: #ff4c68;
+}
+
+#cta h3 {
+  color: #fff;
+  font-family: "montsarrat-bold", sans-serif;
+  font-weight: 900;
+  font-size: 70px;
+}
+
+#cta .btn {
+  margin: 5% 1%;
+}
+
+/* footer */
+
+#footer {
+  padding: 80px;
+}
+
+#footer i {
+  padding: 0 10px 20px 10px;
+}
